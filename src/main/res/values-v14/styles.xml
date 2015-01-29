@@ -16,6 +16,8 @@
         <!-- API 14 theme customizations can go here. -->
     </style>
     <style name="Dialog" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:background">#ff303030</item>
 <!--     <style name="Dialog" parent="Theme.AppCompat.Dialog"> -->
         <!-- API 14 theme customizations can go here. -->
     </style>

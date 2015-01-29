@@ -16,6 +16,7 @@
         <!-- API 21 theme customizations can go here. -->
     </style>
     <style name="Dialog" parent="android:Theme.Material.Dialog">
+        <item name="android:windowNoTitle">false</item>
 <!--     <style name="Dialog" parent="Theme.AppCompat.Dialog"> -->
         <!-- API 21 theme customizations can go here. -->
     </style>

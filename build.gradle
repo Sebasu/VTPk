@@ -7,8 +7,8 @@ android {
         applicationId "com.vagoscorp.virtualterminalprokey"
         minSdkVersion 7
         targetSdkVersion 21
-        versionCode 20141130
-        versionName "1.0"
+        versionCode 20150129
+        versionName '1.1'
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7

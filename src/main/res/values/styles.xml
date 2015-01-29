@@ -24,6 +24,8 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <style name="Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:background">#ff303030</item>
 <!--     <style name="Dialog" parent="Theme.AppCompat.Dialog"> -->
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>

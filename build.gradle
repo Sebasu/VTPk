@@ -9,13 +9,12 @@ android {
             storePassword 'Kagutsuchi2.4'
         }
     }
-    compileSdkVersion 23
-    buildToolsVersion '23.0.3'
+    compileSdkVersion 26
     defaultConfig {
         applicationId "com.vagoscorp.virtualterminal.prokey"
         minSdkVersion 7
-        targetSdkVersion 23
-        versionCode 20160302
+        targetSdkVersion 26
+        versionCode 20171029
         versionName '1.2.2'
         signingConfig signingConfigs.Sebasu
     }

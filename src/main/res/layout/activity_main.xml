@@ -20,13 +20,12 @@
         <!--android:layout_height="wrap_content"-->
         <!--android:text="@string/app_name" />-->
 
-        <Button
-            android:id="@+id/enPro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/getPro"
-            android:onClick="onPro"
-            android:visibility="gone"/>
+    <Button
+        android:id="@+id/enPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/getPro"
+        android:visibility="gone" />
 
         <TextView
             android:id="@+id/state"

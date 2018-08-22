@@ -24,8 +24,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         PackageManager manager = getPackageManager();
         setContentView(R.layout.activity_main);
-        stat = (TextView) findViewById(R.id.state);
-        enPro = (Button) findViewById(R.id.enPro);
+        stat = findViewById(R.id.state);
+        enPro = findViewById(R.id.enPro);
         appIntent = manager.getLaunchIntentForPackage("com.vagoscorp.virtualterminal");
         appMIntent = new Intent(Intent.ACTION_VIEW);
         appMIntent.setData(Uri.parse("market://details?id=com.vagoscorp.virtualterminal"));

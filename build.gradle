@@ -9,12 +9,12 @@ android {
             storePassword 'Kagutsuchi2.4'
         }
     }
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.vagoscorp.virtualterminal.prokey"
         minSdkVersion 7
-        targetSdkVersion 26
-        versionCode 20171029
+        targetSdkVersion 28
+        versionCode 20180822
         versionName '1.2.2'
         signingConfig signingConfigs.Sebasu
     }
@@ -35,5 +35,5 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
 }

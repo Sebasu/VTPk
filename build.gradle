@@ -12,9 +12,9 @@ android {
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.vagoscorp.virtualterminal.prokey"
-        minSdkVersion 7
+        minSdkVersion 11
         targetSdkVersion 29
-        versionCode 20200102
+        versionCode 20200228
         versionName '1.2.2'
         signingConfig signingConfigs.Sebasu
     }

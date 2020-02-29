@@ -8,6 +8,7 @@
     <string name="getPro">Habilitar Funciones PRO</string>
     <string name="init">Aplicando configuración…</string>
     <string name="prOK">Gracias por el apoyo, Funciones Avanzadas Habilitadas!</string>
+    <string name="AppNI">Se abrirá la página de descarga de Virtual Terminal!</string>
     <string name="noSD">Error: Tarjeta SD no Disponible!</string>
 
 </resources>

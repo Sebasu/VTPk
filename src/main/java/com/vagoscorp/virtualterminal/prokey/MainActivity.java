@@ -37,8 +37,10 @@ public class MainActivity extends Activity {
             appIntent.putExtra(PRO, isPRO);
             startActivity(appIntent);
             finish();
-        } else
-            startActivity(appMIntent);
+        } else {
+            if (appMIntent.resolveActivity(getPackageManager()) != null)
+                startActivity(appMIntent);
+        }
         super.onDestroy();
     }
 }

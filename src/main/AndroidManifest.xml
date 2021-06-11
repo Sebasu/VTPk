@@ -19,4 +19,8 @@
         </activity>
     </application>
 
+    <queries>
+        <package android:name="com.vagoscorp.virtualterminal" />
+    </queries>
+
 </manifest>

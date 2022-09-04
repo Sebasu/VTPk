@@ -12,7 +12,7 @@ android {
     defaultConfig {
         applicationId "com.vagoscorp.virtualterminal.prokey"
         minSdkVersion 7
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 20210610
         versionName '1.2.4'
         signingConfig signingConfigs.Sebasu
@@ -31,7 +31,7 @@ android {
     }
     productFlavors {
     }
-    compileSdkVersion 30
+    compileSdkVersion 31
 }
 
 dependencies {

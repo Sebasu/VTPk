@@ -15,7 +15,7 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_ltc" />
+        android:src="@mipmap/ic_launcher_ltc2" />
 
     <LinearLayout
         android:layout_width="wrap_content"

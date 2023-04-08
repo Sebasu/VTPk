@@ -13,7 +13,7 @@ android {
         applicationId "com.vagoscorp.virtualterminal.prokey"
         minSdkVersion 7
         targetSdk 33
-        versionCode 20230407
+        versionCode 20230408
         versionName '1.2.5'
         signingConfig signingConfigs.Sebasu
     }

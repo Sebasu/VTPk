@@ -5,7 +5,7 @@ android {
         Sebasu {
             keyAlias 'sebasuk'
             keyPassword 'Sehnlich69K'
-            storeFile file('/home/sebas/WorkSpaces/AndroidStudioProjects/AndroidKeyStore.jks')
+            storeFile file('../../AndroidKeyStore.jks')
             storePassword 'Kagutsuchi2.4'
         }
     }
@@ -13,8 +13,8 @@ android {
         applicationId "com.vagoscorp.virtualterminal.prokey"
         minSdkVersion 7
         targetSdk 33
-        versionCode 20210610
-        versionName '1.2.4'
+        versionCode 20230407
+        versionName '1.2.5'
         signingConfig signingConfigs.Sebasu
     }
     buildTypes {
@@ -32,6 +32,7 @@ android {
     productFlavors {
     }
     compileSdk 33
+    namespace 'com.vagoscorp.virtualterminal.prokey'
 }
 
 dependencies {

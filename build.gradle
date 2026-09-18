@@ -12,15 +12,15 @@ android {
     defaultConfig {
         applicationId "com.vagoscorp.virtualterminal.prokey"
         minSdkVersion 7
-        targetSdk 33
-        versionCode 20230414
+        targetSdk 37
+        versionCode 20260917
         versionName '1.2.5'
         signingConfig signingConfigs.Sebasu
     }
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.Sebasu
         }
         debug {
@@ -31,8 +31,9 @@ android {
     }
     productFlavors {
     }
-    compileSdk 33
+    compileSdk 37
     namespace 'com.vagoscorp.virtualterminal.prokey'
+    compileSdkMinor 2
 }
 
 dependencies {
